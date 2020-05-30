@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="740" height="64" viewBox="0 0 740 64">
+  <g id="photoshop" transform="translate(-145 -1151)">
+    <g id="_001-photoshop" data-name="001-photoshop" transform="translate(145 1151)">
+      <g id="Group_2" data-name="Group 2">
+        <g id="Group_1" data-name="Group 1">
+          <path id="Path_1" data-name="Path 1" d="M59.654,0H5.748A5.684,5.684,0,0,0,0,5.6V58.162a5.684,5.684,0,0,0,5.748,5.6H59.654a5.684,5.684,0,0,0,5.748-5.6V5.6A5.684,5.684,0,0,0,59.654,0ZM61.57,58.162a1.9,1.9,0,0,1-1.916,1.868H5.748a1.9,1.9,0,0,1-1.916-1.868V5.6A1.9,1.9,0,0,1,5.748,3.736H59.654A1.9,1.9,0,0,1,61.57,5.6Z" fill="#f2f230"/>
+        </g>
+      </g>
+      <g id="Group_4" data-name="Group 4" transform="translate(11.624 15.07)">
+        <g id="Group_3" data-name="Group 3">
+          <path id="Path_2" data-name="Path 2" d="M104.412,121h-11.5A1.893,1.893,0,0,0,91,122.868v29.891a1.917,1.917,0,0,0,3.832,0V139.682h9.58a9.344,9.344,0,1,0,0-18.682Zm0,14.945h-9.58V124.736h9.58a5.606,5.606,0,1,1,0,11.209Z" transform="translate(-91 -121)" fill="#f2f230"/>
+        </g>
+      </g>
+      <g id="Group_6" data-name="Group 6" transform="translate(38.449 22.543)">
+        <g id="Group_5" data-name="Group 5">
+          <path id="Path_3" data-name="Path 3" d="M308.664,192.209a3.738,3.738,0,1,1,3.832-3.736,1.917,1.917,0,0,0,3.832,0,7.667,7.667,0,1,0-7.664,7.473,3.738,3.738,0,1,1-3.832,3.736,1.917,1.917,0,0,0-3.832,0,7.667,7.667,0,1,0,7.664-7.473Z" transform="translate(-301 -181)" fill="#f2f230"/>
+        </g>
+      </g>
+    </g>
+    <g id="Rectangle_21" data-name="Rectangle 21" transform="translate(234 1151)" fill="none" stroke="#f2f230" stroke-width="2">
+      <rect width="651" height="64" stroke="none"/>
+      <rect x="1" y="1" width="649" height="62" fill="none"/>
+    </g>
+    <rect id="Rectangle_22" data-name="Rectangle 22" width="452" height="64" transform="translate(234 1151)" fill="#f2f230"/>
+  </g>
+</svg>

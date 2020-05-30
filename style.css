@@ -1,0 +1,416 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/* UTILI */
+.span{
+   color:  #f2f230;
+   opacity: 0.8;
+   
+}
+
+img{
+    width: 100%;
+}
+.container-uno .logo h3{
+    padding-left:20px;
+}
+
+.container-uno{
+  
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 70px;
+    align-items: center;
+    background-color: #333;
+    color: white;
+    border-bottom: 2px solid #f2f230;
+    z-index: 1;
+    position: fixed;
+    opacity: 0.9;
+  
+}
+
+.container-uno .menu ul{
+    list-style-type: none;
+    display: flex;
+}
+.container-uno .menu ul li {
+   padding: 10px 20px;
+}
+.container-uno .menu ul li a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.container-uno .menu ul li a:hover{
+    padding: 20px 1px;
+    color: #333;
+    background-color: #f2f230;
+}
+
+.container-due{
+    background: url(./immagini/daylight.jpg) no-repeat center center/cover;
+    height: 100vh;
+    position: relative;
+    opacity: 0.8;
+    
+  
+   
+}
+.container-due  .testo-scrolla{
+margin-top: -50px;
+    color: coral;
+    text-align: center;
+    align-content: center;
+}
+.container-due .testo{
+    display: flex;
+    align-content: center;
+    text-align: center;
+    /* height: 100%; */
+    flex-direction: column;
+    justify-content: center;
+ height: 100%;  
+}
+.container-due .testo h1{
+    font-size:100px;
+    color:#918B76;
+    margin-bottom:20px;
+    
+    
+}
+.container-due .testo h3{
+    font-size: 60px;
+    color: #333333;
+    padding-top: 10px;
+    
+}
+
+.container-due .btn  a{
+    display: inline-block;
+    cursor: pointer;
+    align-content: center;
+    padding: 10px 30px;
+    color:#333;
+    background-color: #f2f230;
+    margin-top: 30px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    text-decoration: none;
+    border: 1px solid #333;
+    
+}
+
+.container-due .btn  a:hover{
+
+background-color: #333;
+color: #f2f230;
+}
+.container-tre{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-content: center;
+    background-color: #333;
+    padding-top: 20px;
+    
+    
+}
+.container-tre .elementi{
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    padding-bottom: 15px;
+    
+}
+.current {
+    border-bottom: 2px solid #f2f230;
+    
+}
+
+
+
+.container-tre .elementi h3{
+    font-size: 50px;
+    margin-top: 20px;
+    color: white;
+    padding: 0px 20px;
+   text-align: left;
+}
+.container-tre .elementi p{
+    font-size: 30px;
+    margin-top: 30px;
+    line-height: 2em;
+    color: white;
+    padding: 0px 20px;
+    margin-bottom: 10px;
+    text-align: left;
+
+}
+.container-tre .foto{
+    /* display: flex; */
+    /* float: right; */
+    flex-direction: row;
+    width: 400px;
+    height: 400px;
+    flex-shrink: 0;
+    align-content: center;
+    padding-right: 20px;
+   
+ 
+}
+.container-four .wrapper .immagini{
+    height: 90px;
+    width: 90px;
+    justify-content: center;
+}
+ .wrapper{ 
+    display: flex;
+    flex-direction: row;
+    padding-top: 5px;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    height: 100%;
+} */
+/* prova */
+
+.container-four .wrapper .box{
+    display: flex;
+    flex-direction: column;
+    padding-top: 5px;
+    align-content: center;
+    justify-content: space-between;
+    text-align: center;
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.skills{
+    background-color: #333;
+    display: flex;
+    flex-direction: column;
+    height: 600px;
+       /*tutti gli elementi interni vanno in colonna  */
+}
+.skills h2{ /*TITOLO*/
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    font-size: 3rem;
+    padding-top: 15px;
+    padding-bottom: 15px;
+
+}
+
+.skills .img-skills{
+   
+    margin: auto;
+}
+
+
+
+/* dimensione foto */
+.skills .skill-photo{
+    width: 500px;
+    padding: 25px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+
+   
+}
+
+
+
+
+
+
+/* fine prova */
+
+.container-four .wrapper .box{
+    padding: 10px 20px;
+    
+    }
+.vuoto{
+    margin: 10px;
+}
+    .pdf {
+ padding-top:50px;
+       display: flex;
+       align-items: center;
+        
+       flex-direction: column; 
+    }
+    #documento{
+        width: 80%;
+    }
+#footer{
+    width: 100%;
+
+      background-color: red;
+  } 
+.ultima{
+    background-color: #333;
+    color: white;
+    height: 100vh;
+}
+.ultima .contatti{
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+height: 100%;
+}
+.ultima .contatti h3{
+    font-size: 3rem;
+    padding-bottom: 20px;
+}
+.ultima .contatti a{
+    display: inline-block;
+    cursor: pointer;
+    align-content: center;
+    padding: 10px 30px;
+    color:#333;
+    background-color: #f2f230;
+    margin-top: 30px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    text-decoration: none;
+    border: 1px solid #333;
+}
+.ultima .contatti a:hover{
+    background-color: #333;
+    color: #f2f230;
+    border: 1px solid #f2f230;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+   height: 91vh;
+   justify-content: center;
+}
+#quadrati{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    
+}
+#quadrati img{
+    width: 100px;
+}
+
+#quadrati .location{
+    text-align: center;
+    padding: 10px 20px;
+   
+
+}
+#quadrati .location:hover{
+ border: 2px solid #f2f230;
+
+    
+}
+#quadrati .phone{
+    text-align: center;
+    padding: 10px 20px;
+   
+
+}
+#quadrati .phone:hover{
+ border: 2px solid #f2f230;
+ 
+    
+}
+#quadrati .email{
+    text-align: center;
+    padding: 10px 20px;
+   
+
+}
+#quadrati .email:hover{
+ border: 2px solid #f2f230;
+ 
+    
+}
+/* FARE PARTE SOTTO, FOOTER ECC */
+
+
+
+/* RESPONSIVE */
+@media (max-width: 500px){
+
+
+ 
+ #quadrati{
+     display: flex;
+     flex-direction: column;
+     justify-content: space-around;
+     min-height: 100%;
+ }
+ .ultima {
+     display: flex;
+     flex-direction: column;
+    
+ }
+ .ultima .contatti h3{
+     display: inline;
+     text-align: center;
+     
+    
+ }
+.container-tre .elementi{
+    display: inline;
+    text-align: center;
+    align-content: center;
+  
+    
+}
+.container-tre{
+    display: block;
+    
+}
+.container-tre .foto{
+    display: block;
+
+    margin: auto;
+}
+
+.container-four .wrapper{
+    display: block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+.container-four .wrapper .brain{
+    padding-bottom: 10px;
+}
+
+
+ }
